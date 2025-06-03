@@ -14,13 +14,13 @@
       background-color: #0d0d0d;
       color: #fff;
       line-height: 1.6;
-      font-size: 19px;
+      font-size: 18px;
     }
 
     .container {
-      max-width: 800px;
+      max-width: 600px;
       margin: auto;
-      padding: 30px 20px;
+      padding: 20px;
       background-color: rgba(0, 0, 0, 0.88);
       border-radius: 12px;
     }
@@ -32,13 +32,13 @@
     }
 
     h1 {
-      font-size: 2.3em;
+      font-size: 1.8em;
       margin-bottom: 15px;
     }
 
     h2 {
-      font-size: 1.6em;
-      margin-top: 35px;
+      font-size: 1.4em;
+      margin-top: 30px;
     }
 
     p {
@@ -56,122 +56,79 @@
     .highlight {
       background: linear-gradient(90deg, #ff4f81, #ff2a63);
       color: white;
-      padding: 16px 32px;
-      border-radius: 12px;
-      font-size: 1.2em;
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-size: 1.1em;
       text-decoration: none;
       font-weight: bold;
       text-align: center;
-      animation: pulse 2s infinite;
       display: block;
-      margin: 30px auto;
+      margin: 25px auto;
       text-transform: uppercase;
-    }
-
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 rgba(255,79,129, 0.4); }
-      50% { box-shadow: 0 0 15px rgba(255,79,129, 0.9); }
-      100% { box-shadow: 0 0 0 rgba(255,79,129, 0.4); }
-    }
-
-    .carousel {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      margin: 25px 0;
-    }
-
-    .carousel-track {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      animation: slide 25s infinite;
-    }
-
-    .carousel img {
-      width: 100%;
-      max-width: 100%;
-      flex-shrink: 0;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(255, 79, 129, 0.3);
-    }
-
-    @keyframes slide {
-      0% { transform: translateX(0%); }
-      20% { transform: translateX(0%); }
-      25% { transform: translateX(-100%); }
-      45% { transform: translateX(-100%); }
-      50% { transform: translateX(-200%); }
-      70% { transform: translateX(-200%); }
-      75% { transform: translateX(-300%); }
-      95% { transform: translateX(-300%); }
-      100% { transform: translateX(0%); }
     }
 
     .benefits-box {
       background-color: rgba(255,79,129,0.08);
-      padding: 20px;
+      padding: 15px;
       border-radius: 12px;
       margin: 25px 0;
     }
 
     .notice {
       text-align: center;
-      font-size: 1.3em;
-      margin-top: 40px;
+      font-size: 1.2em;
+      margin-top: 30px;
       color: #ffcdd6;
+    }
+
+    img.responsive {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .cta-box {
+      text-align: center;
+      margin-top: 40px;
+      background-color: #1a1a1a;
+      padding: 25px 15px;
+      border-radius: 14px;
+      box-shadow: 0 0 20px rgba(255,79,129,0.1);
+    }
+
+    .cta-box p {
+      margin: 0.5em 0;
+    }
+
+    .cta-box a {
+      display: inline-block;
+      background: #ff4f81;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1em;
+      padding: 12px 24px;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-decoration: none;
+      box-shadow: 0 0 12px rgba(255,79,129,0.5);
     }
 
     footer {
       text-align: center;
-      font-size: 0.9em;
+      font-size: 0.85em;
       color: #999;
       margin: 25px auto 10px auto;
       padding-top: 10px;
-      border-top: 1px solid #333;
-      max-width: 800px;
+      max-width: 600px;
     }
   </style>
-  <script
-  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-  data-utmify-prevent-xcod-sck
-  data-utmify-prevent-subids
-  async
-  defer
-></script>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1876791039752459');
-fbq('track', 'Oferta');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1876791039752459&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
- <!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-
-
-  ttq.load('D0SGJO3C77U5DVKCBI70');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
 </head>
 <body>
-  <img src="./image2.png" alt="Capa da Novel" style="width: 100%; border-radius: 0 0 20px 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);">
+  <img src="./image2.png" alt="Capa da Novel" class="responsive">
 
   <div class="container">
     <h1>Você Está a Um Toque de Entrar Numa Obsessão Que Não Vai Conseguir Parar</h1>
@@ -191,37 +148,37 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
       </ul>
     </div>
 
- <img src="app.png" alt="App">
+    <img src="app.png" alt="Visual do App" class="responsive">
 
-    <p style="font-size: 1.2em; color: #ffffff; text-align: center;">
+    <p style="font-size: 1.1em; text-align: center;">
       <em>“Essa história me pegou de um jeito que eu não consigo explicar... Eu esperei a semana inteira por aquele beijo.”</em><br> — L.F., leitora VIP
     </p>
 
-    <div style="text-align: center; margin-top: 40px; background-color: #1a1a1a; padding: 30px; border-radius: 14px; box-shadow: 0 0 20px rgba(255,79,129,0.1);">
-  <p style="font-size: 1.2em; font-style: italic; color: #fff; margin-bottom: 20px;">
-    "Você fez parte do jogo. Agora pode viver a história que ninguém mais tem acesso."
-  </p>
+    <div class="cta-box">
+      <p style="font-size: 1em; font-style: italic; color: #fff;">
+        "Você fez parte do jogo. Agora pode viver a história que ninguém mais tem acesso."
+      </p>
 
-  <div style="background: linear-gradient(90deg, #ff4f81, #ff9100); border-radius: 12px; padding: 15px 25px; margin: 20px auto; max-width: 420px;">
-    <p style="text-decoration: line-through; color: #2b2b2b; font-size: 0.95em; margin: 0;">De R$114,90</p>
-    <p style="font-size: 1.8em; font-weight: bold; color: #fff; margin: 5px 0;">
-      por apenas R$14,90/mês
-    </p>
-    <p style="font-size: 0.95em; color: #ffe3ec; margin: 0;">Leia direto no Aplicativo próprio do Novel!</p>
+      <div style="background: linear-gradient(90deg, #ff4f81, #ff9100); border-radius: 12px; padding: 15px 20px; margin: 20px auto; max-width: 100%;">
+        <p style="text-decoration: line-through; color: #2b2b2b; font-size: 0.9em; margin: 0;">De R$114,90</p>
+        <p style="font-size: 1.5em; font-weight: bold; color: #fff; margin: 5px 0;">
+          por apenas R$14,90/mês
+        </p>
+        <p style="font-size: 0.95em; color: #ffe3ec; margin: 0;">Leia direto no Aplicativo próprio do Novel!</p>
+      </div>
+
+      <a href="https://pay.kirvano.com/dd235c73-dd65-4f71-a7d9-fa4fac862650">
+        🔓 ENTRAR AGORA NO UNIVERSO PROIBIDO
+      </a>
+
+      <p style="margin-top: 15px; font-size: 0.9em; color: #bbb;">
+        Oferta limitada • Acesso imediato • Cancele quando quiser
+      </p>
+      <p style="margin-top: 10px; font-size: 0.9em; color: #79aaff;">
+        💠 Bem-vinda ao lado sombrio da literatura romântica 💠
+      </p>
+    </div>
   </div>
-
-  <a href="https://pay.kirvano.com/dd235c73-dd65-4f71-a7d9-fa4fac862650" style="display: inline-block; background: #ff4f81; color: #fff; font-weight: bold; font-size: 1.1em; padding: 14px 28px; border-radius: 12px; margin-top: 20px; text-decoration: none; box-shadow: 0 0 15px rgba(255,79,129,0.5);">
-    🔓 ENTRAR AGORA NO UNIVERSO PROIBIDO
-  </a>
-
-  <p style="margin-top: 20px; font-size: 0.9em; color: #bbb;">
-    Oferta limitada • Acesso imediato • Cancele quando quiser
-  </p>
-  <p style="margin-top: 20px; font-size: 0.9em; color: #79aaff;">
-    💠 Bem-vinda ao lado sombrio da literatura romântica 💠
-  </p>
-</div>
-
 
   <footer>
     Esta experiência é independente e exclusiva para fins de entretenimento. Nenhuma plataforma oficial está vinculada.
